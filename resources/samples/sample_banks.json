@@ -1,0 +1,258 @@
+
+{
+  "Default": {
+    "name": "Default Bank",
+    "pads": {
+      "0": {
+        "name": "KICK 1",
+        "file_path": "",
+        "color": 0
+      },
+      "1": {
+        "name": "SNARE 1",
+        "file_path": "",
+        "color": 1
+      },
+      "2": {
+        "name": "HAT 1",
+        "file_path": "",
+        "color": 2
+      },
+      "3": {
+        "name": "CLAP 1",
+        "file_path": "",
+        "color": 3
+      },
+      "4": {
+        "name": "BASS 1",
+        "file_path": "",
+        "color": 4
+      },
+      "5": {
+        "name": "FX 1",
+        "file_path": "",
+        "color": 5
+      },
+      "6": {
+        "name": "VOX 1",
+        "file_path": "",
+        "color": 6
+      },
+      "7": {
+        "name": "SYNTH 1",
+        "file_path": "",
+        "color": 7
+      },
+      "8": {
+        "name": "KICK 2",
+        "file_path": "",
+        "color": 0
+      },
+      "9": {
+        "name": "SNARE 2",
+        "file_path": "",
+        "color": 1
+      },
+      "10": {
+        "name": "HAT 2",
+        "file_path": "",
+        "color": 2
+      },
+      "11": {
+        "name": "CLAP 2",
+        "file_path": "",
+        "color": 3
+      },
+      "12": {
+        "name": "BASS 2",
+        "file_path": "",
+        "color": 4
+      },
+      "13": {
+        "name": "FX 2",
+        "file_path": "",
+        "color": 5
+      },
+      "14": {
+        "name": "VOX 2",
+        "file_path": "",
+        "color": 6
+      },
+      "15": {
+        "name": "SYNTH 2",
+        "file_path": "",
+        "color": 7
+      }
+    }
+  },
+  "Drums": {
+    "name": "Drum Kit",
+    "pads": {
+      "0": {
+        "name": "KICK A",
+        "file_path": "",
+        "color": 0
+      },
+      "1": {
+        "name": "KICK B",
+        "file_path": "",
+        "color": 0
+      },
+      "2": {
+        "name": "SNARE A",
+        "file_path": "",
+        "color": 1
+      },
+      "3": {
+        "name": "SNARE B",
+        "file_path": "",
+        "color": 1
+      },
+      "4": {
+        "name": "CLAP",
+        "file_path": "",
+        "color": 3
+      },
+      "5": {
+        "name": "RIM",
+        "file_path": "",
+        "color": 3
+      },
+      "6": {
+        "name": "HAT CLOSED",
+        "file_path": "",
+        "color": 2
+      },
+      "7": {
+        "name": "HAT OPEN",
+        "file_path": "",
+        "color": 2
+      },
+      "8": {
+        "name": "CRASH",
+        "file_path": "",
+        "color": 7
+      },
+      "9": {
+        "name": "RIDE",
+        "file_path": "",
+        "color": 7
+      },
+      "10": {
+        "name": "SHAKER",
+        "file_path": "",
+        "color": 5
+      },
+      "11": {
+        "name": "TAMBOURINE",
+        "file_path": "",
+        "color": 5
+      },
+      "12": {
+        "name": "TOM LOW",
+        "file_path": "",
+        "color": 4
+      },
+      "13": {
+        "name": "TOM MID",
+        "file_path": "",
+        "color": 4
+      },
+      "14": {
+        "name": "TOM HIGH",
+        "file_path": "",
+        "color": 4
+      },
+      "15": {
+        "name": "COWBELL",
+        "file_path": "",
+        "color": 6
+      }
+    }
+  },
+  "Effects": {
+    "name": "DJ Effects",
+    "pads": {
+      "0": {
+        "name": "RISER 1",
+        "file_path": "",
+        "color": 0
+      },
+      "1": {
+        "name": "RISER 2",
+        "file_path": "",
+        "color": 0
+      },
+      "2": {
+        "name": "DROP 1",
+        "file_path": "",
+        "color": 1
+      },
+      "3": {
+        "name": "DROP 2",
+        "file_path": "",
+        "color": 1
+      },
+      "4": {
+        "name": "IMPACT 1",
+        "file_path": "",
+        "color": 2
+      },
+      "5": {
+        "name": "IMPACT 2",
+        "file_path": "",
+        "color": 2
+      },
+      "6": {
+        "name": "SWEEP UP",
+        "file_path": "",
+        "color": 3
+      },
+      "7": {
+        "name": "SWEEP DOWN",
+        "file_path": "",
+        "color": 3
+      },
+      "8": {
+        "name": "HORN",
+        "file_path": "",
+        "color": 4
+      },
+      "9": {
+        "name": "SIREN",
+        "file_path": "",
+        "color": 4
+      },
+      "10": {
+        "name": "VINYL STOP",
+        "file_path": "",
+        "color": 5
+      },
+      "11": {
+        "name": "VINYL START",
+        "file_path": "",
+        "color": 5
+      },
+      "12": {
+        "name": "CROWD CHEER",
+        "file_path": "",
+        "color": 6
+      },
+      "13": {
+        "name": "APPLAUSE",
+        "file_path": "",
+        "color": 6
+      },
+      "14": {
+        "name": "LASER",
+        "file_path": "",
+        "color": 7
+      },
+      "15": {
+        "name": "EXPLOSION",
+        "file_path": "",
+        "color": 7
+      }
+    }
+  }
+}
