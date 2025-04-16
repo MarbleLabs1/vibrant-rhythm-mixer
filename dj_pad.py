@@ -1,4 +1,3 @@
-
 import os
 import sys
 from PyQt6.QtWidgets import (QMainWindow, QWidget, QPushButton, QVBoxLayout, 
@@ -254,7 +253,9 @@ class DJPadApp(QMainWindow):
         )
     
     def pad_clicked(self, pad_index):
-        # Handle pad click event
+        # Handle pad click event with improved functionality
         print(f"Pad {pad_index} clicked")
-        # In a real app, this would trigger a sound
-        # self.audio_engine.play_sample(pad_index)
+        # Now actually trigger the sample
+        sample_path = self.sample_manager.get_sample_path(pad_index)
+        if sample_path and os.path.exists(sample_path):
+            self.audio_engine.play_sample(pad_index)
