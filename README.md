@@ -1,108 +1,73 @@
+# Welcome to your Lovable project
 
-# Vibrant Rhythm Mixer
+## Project info
 
-A colorful, feature-rich DJ application built with Python and PyQt6. This application provides a modern interface for mixing tracks, adding effects, and triggering samples in a live performance environment.
+**URL**: https://lovable.dev/projects/036acd8c-84b3-4cd2-866c-1501adaf869b
 
-## Features
+## How can I edit this code?
 
-- Dual deck mixing with crossfader
-- Colorful performance pads for sample triggering
-- Real-time waveform visualization
-- 3-band EQ per deck
-- Volume controls with VU meters
-- Beat-synced effects
-- Sample bank management
+There are several ways of editing your application.
 
-## Screenshots
+**Use Lovable**
 
-![Application Screenshot](screenshot.png)
+Simply visit the [Lovable Project](https://lovable.dev/projects/036acd8c-84b3-4cd2-866c-1501adaf869b) and start prompting.
 
-## Installation
+Changes made via Lovable will be committed automatically to this repo.
 
-### Requirements
+**Use your preferred IDE**
 
-- Python 3.8 or higher
-- PyQt6
-- PyAudio
-- NumPy
-- Pydub
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Setup
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-1. Clone this repository:
-```
-git clone https://github.com/yourusername/vibrant-rhythm-mixer.git
-cd vibrant-rhythm-mixer
-```
+Follow these steps:
 
-2. Create a virtual environment (recommended):
-```
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-3. Install the required packages:
-```
-pip install pyqt6 pyaudio numpy pydub
-```
+**Edit a file directly in GitHub**
 
-4. Run the application:
-```
-python main.py
-```
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## Usage Guide
+**Use GitHub Codespaces**
 
-### Loading Tracks
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-Click the "LOAD TRACK" button on either deck to open an audio file. The application supports common audio formats including MP3, WAV, AIFF, and FLAC.
+## What technologies are used for this project?
 
-### Mixing Controls
+This project is built with:
 
-- **Crossfader**: Slide to transition between Deck A and Deck B
-- **Volume Sliders**: Adjust the volume of each deck independently
-- **EQ Knobs**: Adjust the low, mid, and high frequencies for each deck
-- **Tempo Controls**: Adjust the playback speed to beat-match tracks
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-### Performance Pads
+## How can I deploy this project?
 
-The 16 colorful pads at the bottom can be assigned samples for triggering during your performance:
+Simply open [Lovable](https://lovable.dev/projects/036acd8c-84b3-4cd2-866c-1501adaf869b) and click on Share -> Publish.
 
-1. Right-click on a pad to assign a sample
-2. Click on the pad during performance to trigger the sample
-3. Use the pad banks to organize different sample sets
+## Can I connect a custom domain to my Lovable project?
 
-### BPM Control
+Yes, you can!
 
-- Use the BPM control to set the tempo for beat-synced effects
-- The tap tempo button can be used to manually set the BPM by tapping in time with the music
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-## Open Source Sounds
-
-This application is designed to work with open source sound samples. Here are some recommended resources for high-quality free samples:
-
-- [Freesound.org](https://freesound.org/) - A collaborative database of Creative Commons Licensed sounds
-- [SampleSwap](https://sampleswap.org/) - Free and legal sample sharing community
-- [Looperman](https://www.looperman.com/) - Royalty-free loops and samples
-
-## Development
-
-This application is structured as follows:
-
-- `main.py` - Entry point for the application
-- `dj_pad.py` - Main application window and UI
-- `audio_engine.py` - Audio processing and playback
-- `sample_manager.py` - Sample management and organization
-- `components/` - UI components (pads, mixers, etc.)
-- `styles.py` - Application styling and colors
-- `resources/` - Sample files and assets
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Inspired by professional DJ software like Serato, Traktor, and VirtualDJ
-- Utilizes the excellent PyQt6 framework for the UI
-- Thanks to the open source audio community for sample resources
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
